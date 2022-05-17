@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'minhaFonte';
+    src: url('../Fontes/Urban\ Black.otf');
+
+}
+
+@font-face {
+    font-family: "minhaFonte2" ;
+    src: url('../Fontes/Rush\ of\ the\ Geisha.ttf');}
+
+body{ /* seletor */
+    background-color:purple
+} /* propriedade       valor */
+
+h1{
+    color: gold;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'minhaFonte' ; 
+}
+
+p{
+    color: gold;
+    text-align: justify;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tituloParagrafo{/* usa-se class qnd é mais de uma coisa p estilizar e ID p uma coisa */
+    color: aliceblue;
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.parag2{
+    background-color: gold;
+    font-family: 'Times New Roman', Times, serif ;
+
+}
+
+#especial{ /* usa o # qnd usa o ID */
+    color:orange;
+    background-color: blueviolet;
+    font-size: 25px;
+    text-align: justify;
+    font-family: 'Zen Loop', cursive;
+}
