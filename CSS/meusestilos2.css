@@ -1,0 +1,112 @@
+body {
+    background-color:black;
+}
+
+h1 {
+    background-color: yellow;
+    text-align: center;
+    text-decoration:underline overline;
+    text-transform: capitalize;
+}
+
+#paragrafo1 {
+    color:yellow;
+    font-size: 20px;
+    text-align: center;
+    font-style: bold italic;
+    text-indent: 20px;
+    letter-spacing: 2.5px;
+    word-spacing: 8px;
+
+}
+
+.minhaDiv{
+    margin: 30px;
+    padding: 30px;
+    font-size: 30px;
+    width: 60%;
+    height: 300px;
+    background-color: yellow;
+    text-align: justify;
+    background-image: url("/img/cyberpunk.png");
+    background-repeat: no-repeat;
+    background-position: cover;
+    border: 3px solid white;
+    border-top: 3px solid red; /* caso queira fazer de todas, é sinal de boas práticas, manter o sentido horário */
+    border-radius: 20px;
+}
+
+#conteudo{
+
+    font-size: 30px;
+    color: aliceblue;
+    height: 300px;
+    width: 60%;
+    text-align: justify;
+    font-size: 30px;
+    border: 3px solid white;
+    border-radius: 20px;
+    background-color: grey;
+
+}
+#boxModel{
+    background-color: whitesmoke;   
+    padding: 30px;
+    margin: 30px;
+    border: 3px solid red;
+    
+}
+
+.botoes{
+    margin: 50px;
+}
+
+.botao1{
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+    background-color: grey;
+    color: red;
+    text-decoration: none;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.botao1:hover{
+    background-color: darkgrey;
+    padding: 5px;
+    cursor: crosshair;
+}
+
+.botao2{
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+    background-color: grey;
+    color: red;
+    text-decoration: none;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.botao2:hover{
+    background-color: darkgrey;
+    padding: 5px;
+    cursor: crosshair;
+}
+.botao3{
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+    background-color: grey;
+    color: red;
+    text-decoration: none;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.botao3:hover{
+    background-color: darkgrey;
+    padding: 5px;
+    cursor: crosshair;
+}
